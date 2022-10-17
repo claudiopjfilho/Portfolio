@@ -25,13 +25,37 @@ export function Nav() {
               open ? "block" : "hidden"
             } w-full lg:flex lg:items-center lg:w-auto`}
           >
-            <ul className=" text-base text-gray-600 flex justify-between ">
+            <ul className="gap-8  text-base text-gray-400 lg:flex block justify-between ">
               <li>
                 <a
                   href=""
-                  className="lg:px-5 py-2 hover:animate-pulse font-semibold"
+                  className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-300 font-semibold"
                 >
                   Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-300 font-semibold"
+                >
+                  Projetos
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-300 font-semibold"
+                >
+                  Cursos
+                </a>
+              </li>
+              <li>
+                <a
+                  href=""
+                  className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-300 font-semibold"
+                >
+                  Contato
                 </a>
               </li>
             </ul>
