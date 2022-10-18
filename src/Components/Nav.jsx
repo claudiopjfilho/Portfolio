@@ -1,16 +1,19 @@
 import { useState } from "react";
 import { List } from "phosphor-react";
+import Logo from "../assets/logo.svg";
 export function Nav() {
   const [open, setOpen] = useState(false);
 
   return (
     <div>
-      <header className="border-b border-gray-800 bg-slate-900 py-2">
-        <div className="flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
+      <header className="border-b border-gray-800 bg-gray-900 py-2">
+        <div className=" my-2 flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
           <img
-            src="https://github.com/claudiopjfilho.png"
-            alt=""
-            className="w-12 h-12 rounded-full"
+            src={Logo}
+            alt="logo"
+            className="w-40 animate-pulse
+    
+            "
           />
 
           <List
@@ -25,7 +28,7 @@ export function Nav() {
               open ? "block" : "hidden"
             } w-full lg:flex lg:items-center lg:w-auto`}
           >
-            <ul className="gap-8  text-base text-gray-400 lg:flex block justify-between ">
+            <ul className=" mt-6  lg:mt-0 text-base text-gray-400 lg:flex block justify-between ">
               <li>
                 <a
                   href=""
