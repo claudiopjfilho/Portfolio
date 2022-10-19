@@ -1,12 +1,15 @@
 import "./Global.css";
 import { Nav } from "./Components/Nav";
 import { Home } from "./Components/Home";
+import { Projects } from "./Components/Projects";
 
 function App() {
   return (
-    <div className="bg-gray-900 w-full h-100% bg-cover">
+    <div>
       <Nav />
       <Home />
+
+      <Projects />
     </div>
   );
 }
