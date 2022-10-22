@@ -1,20 +1,14 @@
 import { useState } from "react";
 import { List, X } from "phosphor-react";
-import Logo from "../assets/logo.svg";
+import Logo from "../../public/Images/logo.svg";
 
 export function Nav() {
   const [open, setOpen] = useState(false);
   return (
     <div>
       <header className="`border-b border-gray-800  py-2   ${visible ? 'top-0' : ''} `">
-        <div className=" my-2 flex items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
-          <img
-            src={Logo}
-            alt="logo"
-            className="w-40 animate-pulse
-    
-            "
-          />
+        <div className=" my-2 flex items-center justify-between xl:max-w-full xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
+          <img src={Logo} alt="logo" className="w-40 animate-pulse" />
 
           <List
             color="white "
