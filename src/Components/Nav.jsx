@@ -6,8 +6,8 @@ export function Nav() {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      <header className="`border-b border-gray-800  py-2   ${visible ? 'top-0' : ''} `">
-        <div className=" my-2 flex items-center justify-between xl:max-w-full xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
+      <header className="`  py-2   ${visible ? 'top-0' : ''} `">
+        <div className="fixed bg-slate-900 -mt-2 h-16  z-50 flex items-center justify-between xl:max-w-full xl:mx-auto max-w-full px-[8%] flex-wrap w-full border-b border-gray-800">
           <img src={Logo} alt="logo" className="w-40 animate-pulse" />
 
           <List
@@ -21,7 +21,7 @@ export function Nav() {
           <nav
             className={`${
               open ? "block" : "hidden"
-            } w-full lg:flex lg:items-center lg:w-auto`}
+            } w-full lg:flex lg:items-center lg:w-auto `}
           >
             <ul className=" mt-6  lg:mt-0 text-base text-gray-400 flex lg:flex-row flex-col gap-2 lg:justify-between ">
               <li>
