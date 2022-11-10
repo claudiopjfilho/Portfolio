@@ -1,12 +1,35 @@
+import axios from "axios";
+import { useEffect, useState } from "react";
 import { Minus } from "phosphor-react";
 import repoEcommerce from "../../public/Images/repoEcommerce.png";
 import repoIgniteLab from "../../public/Images/repoIgniteLab.png";
 import repoEsports from "../../public/Images/repoEsportsIgnite.png";
 import repoDoctorCare from "../../public/Images/repoDoctorCare.png";
 
-export function Projects() {
+
+export function Repo() {
+  const [repositories, setRepositories] = useState([])
+  
+
+  useEffect(() => {
+    axios.get("https://api.github.com/users/claudiopjfilho/repos")
+      .then(response =>{
+          setRepositories(response.data);
+        })
+  }, []);
+
   return (
-    <div id="projects" className=" mx-auto flex flex-col items-center my-20">
+    <div>
+      <ul>
+        {repositories.map(repo => {
+          return (
+            <li key={repo.full_name}>
+            <strong>{repo.full_name}</strong>
+            </li>
+          )
+        })}
+      </ul>
+      <div id="projects" className=" mx-auto flex flex-col items-center my-20">
       <div className="mt-4 mx-auto flex  justify-center items-center w-full">
         <h2 className="flex items-center text-lg gap-2 text-gray-500">
           <Minus size={32} color="#bebebe" /> Projetos
@@ -14,8 +37,7 @@ export function Projects() {
       </div>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-6 px-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 md:gap-12 xl:gap-20    mt-16">
         <a
-          target={"_blank"}
-          href="https://github.com/claudiopjfilho/EventPlatform"
+          href=""
           className="relative rounded-lg overflow-hidden w-72 h-32 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
         >
           <img
@@ -34,8 +56,7 @@ export function Projects() {
           </div>
         </a>
         <a
-          target={"_blank"}
-          href="https://github.com/claudiopjfilho/LojaConstrucao"
+          href=""
           className="relative rounded-lg overflow-hidden w-72 h-32 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
         >
           <img
@@ -44,14 +65,15 @@ export function Projects() {
             className="object-cover w-full h-full "
           />
           <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute left-0 bottom-0 right-0">
-            <strong className="font-bold text-white block">E-commerce</strong>
+            <strong className="font-bold text-white block">
+              League Of Legends
+            </strong>
 
-            <span className="text-zinc-300 text-sm block mt-1"></span>
+            <span className="text-zinc-300 text-sm block mt-1">4 Anúncios</span>
           </div>
         </a>
         <a
-          target={"_blank"}
-          href="https://github.com/claudiopjfilho/NLW-E-Sports-Ignite"
+          href=""
           className="relative rounded-lg overflow-hidden w-72 h-32 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
         >
           <img
@@ -61,17 +83,14 @@ export function Projects() {
           />
           <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute left-0 bottom-0 right-0">
             <strong className="font-bold text-white block">
-              NLW- E-Sports
+              League Of Legends
             </strong>
 
-            <span className="text-zinc-300 text-sm block mt-1">
-              Link do repositório
-            </span>
+            <span className="text-zinc-300 text-sm block mt-1">4 Anúncios</span>
           </div>
         </a>
         <a
-          target={"_blank"}
-          href="https://github.com/claudiopjfilho/doctorCare"
+          href=""
           className="relative rounded-lg overflow-hidden w-72 h-32 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
         >
           <img
@@ -80,14 +99,16 @@ export function Projects() {
             className="object-cover w-full h-full "
           />
           <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute left-0 bottom-0 right-0">
-            <strong className="font-bold text-white block">DoctorCare</strong>
+            <strong className="font-bold text-white block">
+              League Of Legends
+            </strong>
 
-            <span className="text-zinc-300 text-sm block mt-1">
-              Link do repositório
-            </span>
+            <span className="text-zinc-300 text-sm block mt-1">4 Anúncios</span>
           </div>
         </a>
       </div>
+    </div>
+  
     </div>
   );
 }

@@ -10,12 +10,13 @@ import {
 
 export function Home() {
   return (
-    <div id="#home" className="font-mono  w-full">
+    <div id="home" className="font-mono  w-full">
       <div classname="mx-auto">
-        <section className="mt-12 xl:mt-20 mx-auto flex flex-col md:flex-row items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
+        <section className="mt-16 xl:mt-20 mx-auto flex flex-col md:flex-row items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
           <div className="">
             <h2 className="mb-3 flex items-center text-base gap-2 text-gray-400">
-              <Minus size={32} color="#dddddd" /> Me chamo:
+              <Minus size={32} color="#dddddd" />
+              Olá, meu nome é:
             </h2>
             <h1 className="font-extrabold xl:text-4xl text-2xl text-gray-300">
               Cláudio <span className="text-violet-600"> Joventino.</span>
