@@ -6,7 +6,7 @@ import Repositories from "./components/Repositories";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <div>
         <Nav />
         <Home />

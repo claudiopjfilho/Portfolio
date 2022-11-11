@@ -12,7 +12,7 @@ export function Home() {
   return (
     <div className="font-mono  w-full">
       <div className="mx-auto">
-        <section className="mt-16 xl:mt-20 mx-auto flex flex-col md:flex-row items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
+        <section className="mt-16 xl:mt-20 mx-auto flex flex-col md:flex-row items-center justify-between xl:max-w-full xl:h-96  xl:justify-around max-w-full px-[8%] flex-wrap w-full">
           <div className="">
             <h2 className="mb-3 flex items-center text-base gap-2 text-gray-400">
               <Minus size={32} color="#dddddd" />
