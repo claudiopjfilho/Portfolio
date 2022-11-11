@@ -10,8 +10,8 @@ import {
 
 export function Home() {
   return (
-    <div id="home" className="font-mono  w-full">
-      <div classname="mx-auto">
+    <div className="font-mono  w-full">
+      <div className="mx-auto">
         <section className="mt-16 xl:mt-20 mx-auto flex flex-col md:flex-row items-center justify-between xl:max-w-7xl xl:mx-auto max-w-full px-[8%] flex-wrap w-full">
           <div className="">
             <h2 className="mb-3 flex items-center text-base gap-2 text-gray-400">
@@ -19,11 +19,11 @@ export function Home() {
               Olá, meu nome é:
             </h2>
             <h1 className="font-extrabold xl:text-4xl text-2xl text-gray-300">
-              Cláudio <span className="text-violet-600"> Joventino.</span>
+              Cláudio <span className="text-indigo-600"> Joventino.</span>
             </h1>
             <p className=" mt-3 text-md lg:w-96 w-80 text-gray-400 font-normal">
-              Analista de Sistemas e Desenvolvedor Front-end, proficiência em
-              React, TailwindCSS, CSS, JavaScript e ReactNative.
+              Sou analista de sistemas e Desenvolvedor Front-end, proficiência
+              em React, TailwindCSS, CSS, JavaScript e ReactNative.
             </p>
             <div className="mt-3 flex items-center gap-4  w-60">
               <a

@@ -1,14 +1,16 @@
+import { useEffect, useState } from "react";
+
 import { Minus } from "phosphor-react";
-import repoEcommerce from "../../public/Images/repoEcommerce.png";
-import repoIgniteLab from "../../public/Images/repoIgniteLab.png";
-import repoEsports from "../../public/Images/repoEsportsIgnite.png";
-import repoDoctorCare from "../../public/Images/repoDoctorCare.png";
+import repoEcommerce from "../assets/images/repositories/Images/repoEcommerce.png";
+import repoIgniteLab from "../assets/images/repositories/Images/repoIgniteLab.png";
+import repoEsports from "../assets/images/repositories/Images/repoEsportsIgnite.png";
+import repoDoctorCare from "../assets/images/repositories/Images/repoDoctorCare.png";
 
 export function Projects() {
   return (
     <div id="projects" className=" mx-auto flex flex-col items-center my-20">
       <div className="mt-4 mx-auto flex  justify-center items-center w-full">
-        <h2 className="flex items-center text-lg gap-2 text-gray-500">
+        <h2 className="flex items-center text-lg gap-2 text-zinc-300">
           <Minus size={32} color="#bebebe" /> Projetos
         </h2>
       </div>
