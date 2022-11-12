@@ -47,13 +47,13 @@ export default function Techs() {
             />
           </li>
         </ul>
-        <div className="flex flex-row mt-4 md:mt-16 mx-auto gap-x-8 xl:gap-x-20">
+        <div className="flex flex-col md:flex-row mt-4 md:mt-16 mx-auto gap-2 xl:gap-20">
           <img
-            className="h-16 md:h-48 "
+            className="h-48  "
             src="https://github-readme-stats.vercel.app/api?username=claudiopjfilho&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"
           />
           <img
-            className="h-16 md:h-48"
+            className="h-48"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=claudiopjfilho&layout=compact&langs_count=7&theme=dracula"
           />
         </div>
