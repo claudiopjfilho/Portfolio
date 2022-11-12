@@ -14,11 +14,11 @@ export function Projects() {
           <Minus size={32} color="#bebebe" /> Projetos
         </h2>
       </div>
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-6 px-2 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 md:gap-12 xl:gap-20    mt-16">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-6 px-2 md:grid-cols-3 xl:grid-cols-3  2xl:grid-cols-4 md:gap-12 xl:gap-20    mt-16">
         <a
           target={"_blank"}
           href="https://github.com/claudiopjfilho/EventPlatform"
-          className="relative rounded-lg overflow-hidden w-72 h-32 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
+          className="relative  rounded-lg overflow-hidden w-72 h-32 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
         >
           <img
             src={repoIgniteLab}

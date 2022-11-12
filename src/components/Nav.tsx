@@ -7,7 +7,7 @@ export function Nav() {
   return (
     <div>
       <header id="home" className="`  py-2   ${visible ? 'top-0 ' : ''} `">
-        <div className="fixed   z-50 -mt-2 h-16  flex items-center justify-between xl:max-w-full xl:mx-auto max-w-full px-[8%] flex-wrap w-full border bg-slate-900  border-gray-800">
+        <div className="fixed   z-50 -mt-2 h-16  flex items-center justify-between xl:max-w-full xl:mx-auto max-w-full px-[8%] flex-wrap w-full bg-slate-900  ">
           <div
             className={`${open ? "fixed " : ""}flex justify-between w-80  z-40`}
           >

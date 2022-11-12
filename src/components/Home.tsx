@@ -6,6 +6,7 @@ import {
   InstagramLogo,
   RedditLogo,
   WhatsappLogo,
+  Envelope,
 } from "phosphor-react";
 
 export function Home() {
@@ -44,22 +45,23 @@ export function Home() {
                   className=" text-gray-300 hover:text-violet-600 hover:animate-pulse duration-1000"
                 />
               </a>
-              <a href="https://twitter.com/claudiopjfilho" target={"_blank"}>
-                <TwitterLogo
+
+              <a href="mailto:claudiopjfilhodev@gmail.com" target={"_blank"}>
+                <Envelope
                   size={32}
                   className=" text-gray-300 hover:text-cyan-500 hover:animate-pulse duration-1000"
-                />
-              </a>
-              <a href="https://www.reddit.com/user/Kr4WD" target={"_blank"}>
-                <RedditLogo
-                  size={32}
-                  className=" text-gray-300 hover:text-orange-500 hover:animate-pulse duration-1000"
                 />
               </a>
               <a href="https://wa.me/5585998208571" target={"_blank"}>
                 <WhatsappLogo
                   size={32}
                   className=" text-gray-300 hover:text-green-500 hover:animate-pulse duration-1000"
+                />
+              </a>
+              <a>
+                <InstagramLogo
+                  size={32}
+                  className=" text-gray-300 hover:text-red-500 hover:animate-pulse duration-1000"
                 />
               </a>
             </div>
