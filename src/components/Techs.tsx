@@ -8,7 +8,7 @@ export default function Techs() {
         <h1 className="flex items-center text-center text-lg gap-2 text-zinc-300 mx-auto ">
           <Minus size={32} color="#bebebe" /> Tecnologias front-end
         </h1>
-        <ul className="flex flex-row mt-8 md:mt-12 gap-x-6 xl:gap-x-20">
+        <ul className="grid grid-cols-4 md:flex md:flex-row mt-8 md:mt-12 gap-6 xl:gap-x-20">
           <li className="">
             <img
               className="w-32 hover:animate-spin"
@@ -46,14 +46,26 @@ export default function Techs() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
             />
           </li>
+          <li>
+            <img
+              className="w-32 hover:animate-pulse"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+            />
+          </li>
+          <li>
+            <img
+              className="w-32 hover:animate-pulse"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
+            />
+          </li>
         </ul>
         <div className="flex flex-col md:flex-row mt-4 md:mt-16 mx-auto gap-2 xl:gap-20">
           <img
-            className="h-48  "
+            className="h-48 xl:h-64"
             src="https://github-readme-stats.vercel.app/api?username=claudiopjfilho&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"
           />
           <img
-            className="h-48"
+            className="h-48 xl:h-64"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=claudiopjfilho&layout=compact&langs_count=7&theme=dracula"
           />
         </div>

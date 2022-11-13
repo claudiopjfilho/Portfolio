@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Cursos from "./components/Cursos";
 import { Home } from "./components/Home";
 import { Nav } from "./components/Nav";
 import { Projects } from "./components/Projects";
