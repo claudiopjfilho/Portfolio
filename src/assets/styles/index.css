@@ -16,3 +16,6 @@ body {
   background-position: center;
   background-color: #0a0a14;
 }
+html {
+  scroll-behavior: smooth;
+}
