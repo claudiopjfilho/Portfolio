@@ -28,7 +28,7 @@ export default function Cursos() {
               <li className="mb-8">
                 <h1 className="text-2xl font-bold text-slate-50">Wyden</h1>
                 <p>Análise e desenvolvimento de sistemas</p>
-                <p>Início: agosto/2021</p>
+                <p>Início: agosto/2021 - Atualmente</p>
               </li>
               <li className="mb-8">
                 <h1 className="text-2xl font-bold text-slate-50">
