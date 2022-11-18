@@ -3,9 +3,9 @@ import { Minus } from "phosphor-react";
 
 export default function Techs() {
   return (
-    <div className=" font-mono md:mx-auto mx-10 flex flex-col items-center my-20">
-      <div className="mt-4 mx-auto flex flex-col justify-center items-center w-full mb-10">
-        <h1 className="flex items-center text-center text-lg gap-2 text-zinc-300 mx-auto ">
+    <div className=" font-mono md:mx-auto mx-10 flex flex-col items-center px-2">
+      <div className=" mx-auto flex flex-col justify-center items-center w-full mb-10">
+        <h1 className="flex items-center text-center text-xl md:text-4xl gap-2 text-indigo-600 mx-auto ">
           <Minus size={32} color="#bebebe" /> Tecnologias front-end
         </h1>
         <ul className="grid grid-cols-4 md:flex md:flex-row mt-8 md:mt-12 gap-6 xl:gap-x-20">
