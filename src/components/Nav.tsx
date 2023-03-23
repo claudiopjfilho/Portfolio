@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { List } from "phosphor-react";
+import { List, X } from "phosphor-react";
 import Logo from "../assets/images/logo.svg";
 
 export function Nav() {
@@ -9,7 +9,14 @@ export function Nav() {
       <header id="home" className="`  py-2   ${visible ? 'top-0 ' : ''} `">
         <div className="fixed   z-50 -mt-2 h-16  flex items-center justify-between xl:max-w-full xl:mx-auto max-w-full px-[8%] flex-wrap w-full bg-slate-900  ">
           <div
-            className={`${open ? "fixed " : ""}flex justify-between w-80  z-40`}
+            className={`${open ? "fixed " : ""}flex justify-between z-40
+            w-full
+            sm:w-full
+            md:w-full
+            lg:w-36
+            xl:w-80
+            
+            `}
           >
             <img src={Logo} alt="logo" className="w-40 animate-pulse" />
 
