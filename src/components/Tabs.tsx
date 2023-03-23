@@ -13,21 +13,20 @@ export default function Tabs() {
               <button
                 className={`${
                   cursos
-                    ? " text-blue-600 border-blue-600 active dark:text-blue-500 dark:border-blue-500"
+                    ? "text-blue-600 border-blue-600 active dark:text-blue-500 dark:border-blue-500 transition duration-500 ease-in-out"
                     : ""
-                } inline-flex p-4  rounded-t-lg border-b-2 group`}
+                } inline-flex p-4 rounded-t-lg border-b-2 group`}
                 onClick={() => techs(!cursos)}
               >
                 Cursos
               </button>
-            </li>
-            <li className="mr-2">
+
               <button
                 className={`${
                   cursos
                     ? ""
-                    : " text-blue-600 border-blue-600 active dark:text-blue-500 dark:border-blue-500"
-                } inline-flex p-4  rounded-t-lg border-b-2 group`}
+                    : "text-blue-600 border-blue-600 active dark:text-blue-500 dark:border-blue-500 transition duration-500 ease-in-out"
+                } inline-flex p-4 rounded-t-lg border-b-2 group`}
                 onClick={() => techs(!techs)}
               >
                 Techs
@@ -36,10 +35,10 @@ export default function Tabs() {
           </ul>
         </div>
         <div className="mt-8">
-          <div className={`${cursos ? "show" : "hidden"}`}>
+          <div className={`mt-8 ${cursos ? "fade fade-in" : "hidden"}`}>
             <Cursos />
           </div>
-          <div className={`${cursos ? "hidden" : "show"}`}>
+          <div className={`mt-8 ${cursos ? "hidden" : " fade fade-in"}`}>
             <Techs />
           </div>
         </div>

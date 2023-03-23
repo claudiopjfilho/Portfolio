@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { List, X } from "phosphor-react";
+import { List } from "phosphor-react";
 import Logo from "../assets/images/logo.svg";
 
 export function Nav() {

@@ -10,11 +10,17 @@ export default function Cursos() {
               Experiência
             </h2>
             <div className="ml-4 md:ml-6">
+              <li className="mb-8">
+                <h1 className="text-2xl font-bold text-slate-50">
+                  Estagiário - Suporte T.I
+                </h1>
+                <p>Início: setembro/2022 - novembro/2022</p>
+              </li>
               <li>
                 <h1 className="text-2xl font-bold text-slate-50">
-                  Estagiário - Analista de Sistemas
+                  Suporte analista de sistemas
                 </h1>
-                <p>Início: setembro/2022 - Atualmente</p>
+                <p>Início: dezembro/2022 - Atualmente</p>
               </li>
             </div>
           </ul>
