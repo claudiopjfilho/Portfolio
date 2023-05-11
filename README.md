@@ -1,6 +1,6 @@
 # Portfólio de Claudio Joventino
 
-Este repositório contém o código fonte do portfólio de Claudio Paulo Junior, um desenvolvedor front-end que busca se apresentar e exibir seus trabalhos de maneira profissional e elegante.
+Este repositório contém o código fonte do portfólio de Claudio Joventino, um desenvolvedor front-end que busca se apresentar e exibir seus trabalhos de maneira profissional e elegante.
 
 O site é desenvolvido usando as tecnologias web básicas HTML, CSS e JavaScript, e é responsivo, ou seja, se adapta a diferentes tamanhos de tela, desde dispositivos móveis até desktops.
 
