@@ -8,7 +8,7 @@ Além disso, o site conta com uma seção de projetos, onde Claudio apresenta al
 
 ## Visualização
 
-O site está hospedado no GitHub Pages e pode ser acessado através deste link: [https://claudiopjfilho.github.io/Portfolio/](https://claudiopjfilho.github.io/Portfolio/)
+O site está hospedado na Vercel e pode ser acessado através deste link: [https://portfolio-claudiopjfilho.vercel.app/](https://portfolio-claudiopjfilho.vercel.app/)
 
 ## Instalação e Execução Local
 
