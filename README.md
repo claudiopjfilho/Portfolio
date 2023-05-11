@@ -1,4 +1,4 @@
-# Portfólio de Claudio Paulo Junior
+# Portfólio de Claudio Joventino
 
 Este repositório contém o código fonte do portfólio de Claudio Paulo Junior, um desenvolvedor front-end que busca se apresentar e exibir seus trabalhos de maneira profissional e elegante.
 
