@@ -1,10 +1,10 @@
 # Portfólio de Claudio Joventino
 
-Este repositório contém o código fonte do portfólio de Claudio Joventino, um desenvolvedor front-end que busca se apresentar e exibir seus trabalhos de maneira profissional e elegante.
+Este repositório contém o código fonte do meu portfólio.
 
 O site é desenvolvido usando as tecnologias web básicas HTML, CSS e JavaScript, e é responsivo, ou seja, se adapta a diferentes tamanhos de tela, desde dispositivos móveis até desktops.
 
-Além disso, o site conta com uma seção de projetos, onde Claudio apresenta alguns dos trabalhos que já desenvolveu. Os projetos são exibidos em cards, com uma breve descrição e um link para o respectivo código no GitHub ou para uma demonstração ao vivo do projeto e é um site responsivo, ou seja, se adapta a diferentes tamanhos de tela.
+Além disso, o site conta com uma seção de projetos, onde apresento alguns dos trabalhos que já desenvolvi. Os projetos são exibidos em cards, com uma breve descrição e um link para o respectivo código no GitHub ou para uma demonstração ao vivo do projeto e é um site responsivo, ou seja, se adapta a diferentes tamanhos de tela.
 
 ## Visualização
 
