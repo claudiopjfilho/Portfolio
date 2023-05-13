@@ -20,9 +20,12 @@ cd Portfolio
 open index.html
 ```
 
-## Contribuições
 
-Contribuições são sempre bem-vindas! Se você encontrou algum problema ou quer sugerir alguma melhoria, fique à vontade para abrir uma [issue](https://github.com/claudiopjfilho/Portfolio/issues) ou enviar um [pull request](https://github.com/claudiopjfilho/Portfolio/pulls).
+## Inspiração
+
+O design visual do meu projeto foi inspirado em um modelo que encontrei no Figma. Eu utilizei as cores, fontes e layout como referência para criar a aparência do meu projeto. Você pode ver o modelo original do Figma aqui: [https://www.figma.com/community/file/1160861462615915842](https://www.figma.com/community/file/1160861462615915842)
+
+
 
 ## Licença
 
