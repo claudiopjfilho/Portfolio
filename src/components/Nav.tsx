@@ -56,7 +56,7 @@ export function Nav() {
               </li>
               <li>
                 <a
-                  href=""
+                  href="#footer"
                   className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-200 font-semibold"
                 >
                   Contato
