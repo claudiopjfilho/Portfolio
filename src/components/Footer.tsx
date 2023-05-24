@@ -8,7 +8,7 @@ import {
 
 export function Footer() {
   return (
-    <div id="footer" className="  w-full p-4 bg-slate-900">
+    <div id="footer" className="  w-full p-1 bg-slate-900">
       <div className="mt-3  flex flex-col md:flex-row gap-2 justify-around mx-auto  m  w-full">
         <a
           className="flex flex-row  items-center gap-x-4 md:gap-x-2"

@@ -12,15 +12,15 @@ export default function Cursos() {
             <div className="ml-4 md:ml-6">
               <li className="mb-8">
                 <h1 className="text-2xl font-bold text-slate-50">
-                  Estagiário - Suporte T.I
+                  Estagiário - T.I
                 </h1>
-                <p>Início: setembro/2022 - novembro/2022</p>
+                <p>Início: 09/2022 - 11/2022</p>
               </li>
               <li>
                 <h1 className="text-2xl font-bold text-slate-50">
                   Suporte analista de sistemas
                 </h1>
-                <p>Início: dezembro/2022 - Atualmente</p>
+                <p>Início: 12/2022 - Atualmente</p>
               </li>
             </div>
           </ul>
@@ -32,9 +32,11 @@ export default function Cursos() {
             </h2>
             <div className="ml-4 md:ml-6 ">
               <li className="mb-8">
-                <h1 className="text-2xl font-bold text-slate-50">Wyden</h1>
+                <h1 className="text-2xl font-bold text-slate-50">
+                  Unifanor Wyden
+                </h1>
                 <p>Análise e desenvolvimento de sistemas</p>
-                <p>Início: agosto/2021 - Atualmente</p>
+                <p>Início: 08/2021 - Atualmente</p>
               </li>
               <li className="mb-8">
                 <h1 className="text-2xl font-bold text-slate-50">
@@ -42,12 +44,6 @@ export default function Cursos() {
                 </h1>
                 <p>Finanças</p>
                 <p>01/2017 - 07/2020</p>
-              </li>
-              <li className="mb-8">
-                <h1 className="text-2xl font-bold text-slate-50">Rocketseat</h1>
-                <p>NLW</p>
-                <p>IgniteLab</p>
-                <p>Maratona Explorer</p>
               </li>
             </div>
           </ul>
