@@ -43,7 +43,7 @@ export default function Cursos() {
                   Universidade Federal do Ceará
                 </h1>
                 <p>Finanças</p>
-                <p>01/2017 - 07/2020</p>
+                <p>Início: 01/2017 - 07/2020</p>
               </li>
             </div>
           </ul>
