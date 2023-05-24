@@ -12,8 +12,8 @@ function App() {
       <div>
         <Nav />
         <Home />
-        <Projects />
         <Tabs />
+        <Projects />
         <Footer />
       </div>
     </div>
