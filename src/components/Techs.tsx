@@ -8,7 +8,7 @@ export default function Techs() {
         <h1 className="flex items-center text-center text-lg md:text-4xl gap-2 text-indigo-600 mx-auto ">
           <Minus size={32} color="#bebebe" /> Tecnologias front-end
         </h1>
-        <ul className="grid grid-cols-4 md:flex md:flex-row mt-8 md:mt-12 gap-6 xl:gap-x-20">
+        <ul className="grid grid-cols-4 2xl:flex 2xl:flex-row mt-8 md:mt-12 gap-6 xl:gap-x-20">
           <li className="">
             <img
               className="w-32 hover:animate-spin"
