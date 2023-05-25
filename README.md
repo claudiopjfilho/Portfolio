@@ -23,7 +23,7 @@ open index.html
 
 ## Inspiração
 
-O design visual do meu projeto foi inspirado em um modelo que encontrei no Figma. Eu utilizei as cores, fontes e layout como referência para criar a aparência do meu projeto. Você pode ver o modelo original do Figma aqui: [https://www.figma.com/community/file/1160861462615915842](https://www.figma.com/community/file/1160861462615915842)
+O design visual do meu projeto foi inspirado em um modelo que encontrei no Figma. Você pode ver o modelo original do Figma aqui: [https://www.figma.com/community/file/1160861462615915842](https://www.figma.com/community/file/1160861462615915842)
 
 
 
