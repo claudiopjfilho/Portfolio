@@ -4,7 +4,7 @@ import { Home } from "./components/Home";
 import { Nav } from "./components/Nav";
 import { Projects } from "./components/Projects";
 import Tabs from "./components/Tabs";
-import Techs from "./components/Techs";
+import GitHubRepos from "./components/Repositories";
 
 function App() {
   return (
@@ -14,6 +14,8 @@ function App() {
         <Home />
         <Tabs />
         <Projects />
+
+        <GitHubRepos username="claudiopjfilho" />
         <Footer />
       </div>
     </div>
