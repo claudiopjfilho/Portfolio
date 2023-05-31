@@ -7,9 +7,8 @@ interface Repository {
   id: number;
   name: string;
   description: string;
-  stargazers_count: number;
   html_url: string;
-  language: string;
+  created_at: string;
 }
 
 interface GitHubReposProps {
@@ -27,7 +26,7 @@ const GitHubRepos: React.FC<GitHubReposProps> = ({ username }) => {
           `https://api.github.com/users/claudiopjfilho/repos`,
           {
             headers: {
-              Authorization: `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`, // Substitua <seu-token> pelo seu token de acesso pessoal
+              // Authorization: `<seu-token>`, // Substitua <seu-token> pelo seu token de acesso pessoal
             },
           }
         );
@@ -69,21 +68,30 @@ const GitHubRepos: React.FC<GitHubReposProps> = ({ username }) => {
           </div>
         </div>
 
-        {displayedRepos.map(repo => (
-          <div
-            key={repo.id}
-            className=" font-mono bg-indigo-900 hover:bg-violet-900 p-4 mx-4 mb-4 transition duration-600 ease-in-out rounded-xl"
-          >
-            <h3 className="text-xl uppercase text-gray-200 font-bold mb-2 transition duration-500 ease-in-out">
-              {repo.name}
-            </h3>
-            <p className=" text-gray-200 mb-2">{repo.description}</p>
-            <p className="text-gray-200 cursor-pointer">
-              <GithubLogo size={28} href={repo.html_url} className="mb-2" />
-            </p>
-            <p className="text-gray-200">Linguagem: {repo.language}</p>
-          </div>
-        ))}
+        {displayedRepos
+          .sort(
+            (a, b) =>
+              new Date(b.created_at).getTime() -
+              new Date(a.created_at).getTime()
+          )
+          .map(repo => (
+            <div
+              key={repo.id}
+              className=" font-mono bg-indigo-900 hover:bg-violet-900 p-4 mx-4 mb-4 transition duration-600 ease-in-out rounded-xl"
+            >
+              <h3 className="text-xl uppercase text-gray-200 font-bold mb-2 transition duration-500 ease-in-out">
+                {repo.name}
+              </h3>
+              <p className=" text-gray-200 mb-2">{repo.description}</p>
+              <a
+                href={repo.html_url}
+                target="_blank"
+                className=" text-gray-200 hover:text-cyan-600 hover:animate-pulse duration-1000 cursor-pointer"
+              >
+                <GithubLogo size={28} className="mb-2" />
+              </a>
+            </div>
+          ))}
       </div>
     </div>
   );
