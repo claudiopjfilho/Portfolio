@@ -26,7 +26,7 @@ const GitHubRepos: React.FC<GitHubReposProps> = ({ username }) => {
           `https://api.github.com/users/claudiopjfilho/repos`,
           {
             headers: {
-              // Authorization: `<seu-token>`, // Substitua <seu-token> pelo seu token de acesso pessoal
+              // Authorization: `<seu-token>`,  Substitua <seu-token> pelo seu token de acesso pessoal
             },
           }
         );

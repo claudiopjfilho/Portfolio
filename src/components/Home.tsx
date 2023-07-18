@@ -17,14 +17,15 @@ export function Home() {
           <div className="">
             <h2 className="mb-3 flex items-center text-base gap-2 text-gray-400">
               <Minus size={32} color="#dddddd" />
-              Olá, meu nome é:
+              Olá, sou o:
             </h2>
             <h1 className="font-extrabold xl:text-4xl text-2xl text-gray-300">
               Cláudio <span className="text-indigo-600"> Joventino.</span>
             </h1>
             <p className=" mt-3 text-md lg:w-96 w-80 text-gray-400 font-normal">
-              Sou analista de sistemas e Desenvolvedor Front-end, proficiência
-              em React, TailwindCSS, CSS, JavaScript e ReactNative.
+              Analista e desenvolvedor de sistemas focado em React e React
+              Native, atualmente trabalho na área de análise de sistemas como
+              analista de suporte e implantação.
             </p>
             <div className="mt-3 flex items-center gap-4  w-60">
               <a
