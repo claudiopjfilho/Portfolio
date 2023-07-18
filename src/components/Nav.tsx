@@ -40,21 +40,20 @@ export function Nav() {
               </li>
               <li>
                 <a
-                  href="#cursos"
-                  className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-200 font-semibold"
-                >
-                  Cursos
-                </a>
-              </li>
-              <li>
-                <a
                   href="#projects"
                   className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-200 font-semibold"
                 >
                   Projetos
                 </a>
               </li>
-
+              <li>
+                <a
+                  href="#cursos"
+                  className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-200 font-semibold"
+                >
+                  Cursos
+                </a>
+              </li>
               <li>
                 <a
                   href="#footer"
