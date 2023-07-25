@@ -1,5 +1,3 @@
-import Cursos from "./components/Cursos";
-import { Footer } from "./components/Footer";
 import { Home } from "./components/Home";
 import { Nav } from "./components/Nav";
 import { Projects } from "./components/Projects";
@@ -16,7 +14,6 @@ function App() {
         <Projects />
 
         <GitHubRepos username="claudiopjfilho" />
-        <Footer />
       </div>
     </div>
   );

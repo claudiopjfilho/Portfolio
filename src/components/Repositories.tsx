@@ -44,7 +44,7 @@ const GitHubRepos: React.FC<GitHubReposProps> = ({ username }) => {
   const displayedRepos = repos.slice(startIndex, endIndex);
 
   return (
-    <div>
+    <div className="pb-20">
       <div className="container mx-auto mt-8">
         <div className="flex flex-col md:flex-row justify-between mx-6 my-4">
           <h2 className="ml-4 text-slate-300 text-2xl  font-bold mb-4">
@@ -54,14 +54,14 @@ const GitHubRepos: React.FC<GitHubReposProps> = ({ username }) => {
             <button
               onClick={() => setCurrentPage(currentPage - 1)}
               disabled={currentPage === 1}
-              className="w-24 h-12 bg-slate-700 hover:bg-violet-900 text-white font-bold py-2 px-4 rounded duration-700 cursor-pointer"
+              className="w-24 h-12 bg-slate-700 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded duration-700 cursor-pointer"
             >
               Anterior
             </button>
             <button
               onClick={() => setCurrentPage(currentPage + 1)}
               disabled={endIndex >= repos.length}
-              className=" h-12 md:w-24 bg-slate-700 hover:bg-violet-900 text-white font-bold py-2 px-4 rounded duration-700 cursor-pointer"
+              className=" h-12 md:w-24 bg-slate-700 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded duration-700 cursor-pointer"
             >
               Próxima
             </button>
@@ -77,18 +77,20 @@ const GitHubRepos: React.FC<GitHubReposProps> = ({ username }) => {
           .map(repo => (
             <div
               key={repo.id}
-              className=" font-mono bg-indigo-900 hover:bg-violet-900 p-4 mx-4 mb-4 transition duration-600 ease-in-out rounded-xl"
+              className=" font-mono bg-sky-600 hover:bg-sky-700 p-4 mx-4 mb-4 transition duration-600 ease-in-out rounded-xl"
             >
-              <h3 className="text-xl uppercase text-gray-200 font-bold mb-2 transition duration-500 ease-in-out">
+              <h3 className="text-xl uppercase text-gray-900 font-bold mb-2 transition duration-500 ease-in-out">
                 {repo.name}
               </h3>
-              <p className=" text-gray-200 mb-2">{repo.description}</p>
+              <p className=" text-gray-200 mb-2 font-mono">
+                {repo.description}
+              </p>
               <a
                 href={repo.html_url}
                 target="_blank"
                 className=" text-gray-200 hover:text-cyan-600 hover:animate-pulse duration-1000 cursor-pointer"
               >
-                <GithubLogo size={28} className="mb-2" />
+                <GithubLogo size={28} className="mb-2 text-gray-800" />
               </a>
             </div>
           ))}

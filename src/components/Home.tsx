@@ -24,8 +24,8 @@ export function Home() {
             </h1>
             <p className=" mt-3 text-md lg:w-96 w-80 text-gray-400 font-normal">
               Analista e desenvolvedor de sistemas focado em React e React
-              Native, atualmente trabalho na área de análise de sistemas como
-              analista de suporte e implantação.
+              Native, atuo na área de análise de sistemas como analista de
+              suporte e implantação.
             </p>
             <div className="mt-3 flex items-center gap-4  w-60">
               <a
