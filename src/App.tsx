@@ -10,8 +10,8 @@ function App() {
       <div>
         <Nav />
         <Home />
-        <Tabs />
         <Projects />
+        <Tabs />
 
         <GitHubRepos username="claudiopjfilho" />
       </div>
