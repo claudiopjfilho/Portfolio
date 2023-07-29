@@ -7,7 +7,7 @@ export default function Tabs() {
   return (
     <div className="" id="cursos">
       <div className="flex flex-col mx-auto  items-center justify-center w-full">
-        <div className="">
+        <div className=" -mt-16">
           <ul className="flex flex-wrap -mb-px text-sm font-medium text-center text-gray-500 dark:text-gray-400">
             <li className="mr-2">
               <button
@@ -34,7 +34,7 @@ export default function Tabs() {
             </li>
           </ul>
         </div>
-        <div className="mt-8">
+        <div className="mt-2">
           <div className={`mt-8 ${cursos ? "fade fade-in" : "hidden"}`}>
             <Cursos />
           </div>

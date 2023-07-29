@@ -1,4 +1,3 @@
-import React from "react";
 import { Minus } from "phosphor-react";
 
 export default function Techs() {

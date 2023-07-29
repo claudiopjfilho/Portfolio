@@ -17,11 +17,11 @@ export function Projects() {
           <Minus size={32} color="#bebebe" /> Projetos
         </h2>
       </div>
-      <div className="grid grid-cols-2  gap-6  2xl:grid-cols-4 xl:gap-20    mt-16">
+      <div className="grid grid-cols-2  gap-8  2xl:grid-cols-4 xl:gap-20    mt-10">
         <a
           target={"_blank"}
           href="https://github.com/claudiopjfilho/EventPlatform"
-          className="relative  rounded-lg overflow-hidden w-36 h-28 mx-auto sm:w-60 sm:h-32 lg:w-72 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
+          className="relative  rounded-lg overflow-hidden w-44 h-28 mx-auto sm:w-60 sm:h-32 lg:w-72 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
         >
           <img
             src={repoIgniteLab}
@@ -39,7 +39,7 @@ export function Projects() {
         <a
           target={"_blank"}
           href="https://loja-construcao.vercel.app"
-          className="relative rounded-lg overflow-hidden w-36 h-28 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
+          className="relative rounded-lg overflow-hidden w-44 h-28 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
         >
           <img
             src={repoEcommerce}
@@ -63,7 +63,7 @@ export function Projects() {
         <a
           target={"_blank"}
           href="https://github.com/claudiopjfilho/NLW-E-Sports-Ignite"
-          className="relative  rounded-lg overflow-hidden w-36 h-28 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
+          className="relative  rounded-lg overflow-hidden w-44  h-28 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
         >
           <img
             src={repoEsports}
@@ -83,7 +83,7 @@ export function Projects() {
         <a
           target={"_blank"}
           href="https://github.com/claudiopjfilho/doctorCare"
-          className="relative rounded-lg overflow-hidden w-36 h-28 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
+          className="relative rounded-lg overflow-hidden w-44  h-28 mx-auto sm:w-60 sm:h-32 lg:w-80 lg:h-44 xl:w-96 xl:h-60 hover:shadow-md hover:scale-110  transition ease-in-out delay-150  hover:-translate-y-1  duration-300"
         >
           <img
             src={repoDoctorCare}
