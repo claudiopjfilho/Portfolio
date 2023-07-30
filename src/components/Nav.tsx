@@ -53,7 +53,7 @@ export function Nav() {
                   href="#cursos"
                   className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-200 font-semibold"
                 >
-                  Cursos
+                  Techs/Exp
                 </a>
               </li>
               <li>
