@@ -13,7 +13,9 @@ export function Nav() {
             w-80
             `}
           >
-            <img src={Logo} alt="logo" className="w-40 animate-pulse" />
+            <a href="#home">
+              <img src={Logo} alt="logo" className="w-40 animate-pulse" />
+            </a>
 
             <List
               color="white "
