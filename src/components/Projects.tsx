@@ -17,7 +17,7 @@ export function Projects() {
           <Minus size={32} color="#bebebe" /> Projetos
         </h2>
       </div>
-      <div className="grid grid-cols-2  gap-8  2xl:grid-cols-4 xl:gap-20    mt-10">
+      <div className="grid grid-cols-2  gap-2  2xl:grid-cols-4 xl:gap-20 mt-10">
         <a
           target={"_blank"}
           href="https://github.com/claudiopjfilho/EventPlatform"
