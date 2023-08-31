@@ -40,11 +40,11 @@ const GitHubRepos: React.FC<GitHubReposProps> = ({ username }) => {
   }, [username]);
 
   const startIndex = (currentPage - 1) * 5;
-  const endIndex = startIndex + 5;
+  const endIndex = startIndex + 3;
   const displayedRepos = repos.slice(startIndex, endIndex);
 
   return (
-    <div className="pb-20 bg-gray-900 py-6">
+    <div className="rounded-3xl pb-20 bg-gray-600 py-6 ">
       <div className="container mx-auto mt-8">
         <div className="flex flex-col md:flex-row justify-between mx-6 my-4">
           <h2 className="ml-4 text-slate-300 text-2xl  font-bold mb-4">
@@ -54,14 +54,14 @@ const GitHubRepos: React.FC<GitHubReposProps> = ({ username }) => {
             <button
               onClick={() => setCurrentPage(currentPage - 1)}
               disabled={currentPage === 1}
-              className="w-24 h-12 bg-slate-700 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded duration-700 cursor-pointer"
+              className="h-10 w-20 md:h-12 md:w-24 bg-slate-700 hover:bg-slate-500 text-white md:font-bold py-2 px-4 rounded duration-700 cursor-pointer"
             >
               Anterior
             </button>
             <button
               onClick={() => setCurrentPage(currentPage + 1)}
               disabled={endIndex >= repos.length}
-              className=" h-12 md:w-24 bg-slate-700 hover:bg-slate-500 text-white font-bold py-2 px-4 rounded duration-700 cursor-pointer"
+              className=" bg-slate-700 hover:bg-slate-500 text-white md:font-bold py-2 px-4 rounded duration-700 cursor-pointer"
             >
               Próxima
             </button>

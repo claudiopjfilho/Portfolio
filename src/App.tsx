@@ -12,8 +12,6 @@ function App() {
         <Home />
         <Projects />
         <Tabs />
-
-        <GitHubRepos username="claudiopjfilho" />
       </div>
     </div>
   );
