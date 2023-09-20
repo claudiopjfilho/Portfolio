@@ -73,7 +73,7 @@ export function Nav() {
         </div>
         {show && (
           <div className="fixed inset-0 flex items-center justify-center z-50">
-            <div className=" fade fade-in p-6 rounded-lg shadow-lg h-3/4 w-3/4 overflow-y-auto scrollbar-invisible">
+            <div className=" fade fade-in p-6 rounded-lg shadow-lg h-3/4 w-7/8 md:h-3/4 md:w-3/4 overflow-y-auto scrollbar-invisible">
               <button
                 className="absolute top-4 right-4 bg-gray-200 text-slate-700 hover:text-gray-700"
                 onClick={() => setShow(false)}
