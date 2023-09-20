@@ -65,7 +65,7 @@ export function Nav() {
                   className="lg:px-5 py-2 transition-all duration-700 hover:text-gray-200 font-semibold cursor-pointer"
                   onClick={() => setShow(!show)}
                 >
-                  Contato
+                  Repos
                 </a>
               </li>
             </ul>

@@ -40,11 +40,11 @@ const GitHubRepos: React.FC<GitHubReposProps> = ({ username }) => {
   }, [username]);
 
   const startIndex = (currentPage - 1) * 5;
-  const endIndex = startIndex + 3;
+  const endIndex = startIndex + 5;
   const displayedRepos = repos.slice(startIndex, endIndex);
 
   return (
-    <div className="rounded-3xl pb-20 bg-gray-600 py-6 ">
+    <div className="rounded-3xl pb-20 bg-slate-900 py-6 ">
       <div className="container mx-auto mt-8">
         <div className="flex flex-col md:flex-row justify-between mx-6 my-4">
           <h2 className="ml-4 text-slate-300 text-2xl  font-bold mb-4">
