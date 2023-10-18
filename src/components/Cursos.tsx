@@ -3,7 +3,7 @@ import React from "react";
 export default function Cursos() {
   return (
     <div id="cursos" className="w-full px-2">
-      <div className="text-zinc-400 text-md md:text-xl flex flex-col ml-12  md:flex-row  justify-around ">
+      <div className="text-zinc-400 text-md md:text-xl flex flex-col ml-12 h-96  md:flex-row  justify-around ">
         <div id="exp" className="">
           <ul className="mb-6">
             <h2 className="mb-4 text-3xl md:text-4xl text-indigo-600 font-extrabold font-mono">
@@ -16,11 +16,17 @@ export default function Cursos() {
                 </h1>
                 <p>Início: 09/2022 - 11/2022</p>
               </li>
-              <li>
+              <li className="mb-8">
                 <h1 className="text-2xl font-bold text-slate-50">
-                  Suporte analista de sistemas
+                  Analista de sistemas N1
                 </h1>
-                <p>Início: 12/2022 - Atualmente</p>
+                <p>Início: 12/2022 - 06/2023</p>
+              </li>
+              <li className="mb-8">
+                <h1 className="text-2xl font-bold text-slate-50">
+                  Analista de implantação
+                </h1>
+                <p>Início: 06/2023 - Atualmente</p>
               </li>
             </div>
           </ul>

@@ -25,7 +25,7 @@ export function Home() {
             <p className=" mt-3 text-md lg:w-96 w-80 text-gray-400 font-normal">
               Analista e desenvolvedor de sistemas focado em React e React
               Native, atuo na área de análise de sistemas como analista de
-              suporte e implantação.
+              implantação.
             </p>
             <div className="mt-3 flex items-center gap-4  w-60">
               <a
@@ -59,7 +59,7 @@ export function Home() {
                   className=" text-gray-300 hover:text-green-500 hover:animate-pulse duration-1000"
                 />
               </a>
-              <a>
+              <a href="https://instagram.com/claudiopjfilho" target={"_blank"}>
                 <InstagramLogo
                   size={32}
                   className=" text-gray-300 hover:text-red-500 hover:animate-pulse duration-1000"

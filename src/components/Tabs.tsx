@@ -34,7 +34,7 @@ export default function Tabs() {
             </li>
           </ul>
         </div>
-        <div className="mt-2">
+        <div className="mt-2 h-[40rem] ">
           <div className={`mt-8 ${cursos ? "fade fade-in" : "hidden"}`}>
             <Cursos />
           </div>
