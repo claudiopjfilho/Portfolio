@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Cursos() {
   return (
-    <div id="cursos" className="w-full px-2">
+    <div id="cursos" className="w-full px-2 mt-40">
       <div className="text-zinc-400 text-md md:text-xl flex flex-col ml-12 h-96  md:flex-row  justify-around ">
         <div id="exp" className="">
           <ul className="mb-6">
